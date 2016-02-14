@@ -1,0 +1,36 @@
+[12-Feb-2016 22:56:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'diaryadmin'@'localhost' to database 'diaryusers' in /home/ubuntu/workspace/secretdiary/connection.php on line 3
+[12-Feb-2016 22:56:11 UTC] PHP Stack trace:
+[12-Feb-2016 22:56:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/secretdiary/index.php:0
+[12-Feb-2016 22:56:11 UTC] PHP   2. include() /home/ubuntu/workspace/secretdiary/index.php:1
+[12-Feb-2016 22:56:11 UTC] PHP   3. include() /home/ubuntu/workspace/secretdiary/login.php:12
+[12-Feb-2016 22:56:11 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/secretdiary/connection.php:3
+[12-Feb-2016 22:56:36 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'diaryadmin'@'localhost' (using password: YES) in /home/ubuntu/workspace/secretdiary/connection.php on line 3
+[12-Feb-2016 22:56:36 UTC] PHP Stack trace:
+[12-Feb-2016 22:56:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/secretdiary/index.php:0
+[12-Feb-2016 22:56:36 UTC] PHP   2. include() /home/ubuntu/workspace/secretdiary/index.php:1
+[12-Feb-2016 22:56:36 UTC] PHP   3. include() /home/ubuntu/workspace/secretdiary/login.php:12
+[12-Feb-2016 22:56:36 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/secretdiary/connection.php:3
+[12-Feb-2016 22:56:39 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'diaryadmin'@'localhost' (using password: YES) in /home/ubuntu/workspace/secretdiary/connection.php on line 3
+[12-Feb-2016 22:56:39 UTC] PHP Stack trace:
+[12-Feb-2016 22:56:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/secretdiary/index.php:0
+[12-Feb-2016 22:56:39 UTC] PHP   2. include() /home/ubuntu/workspace/secretdiary/index.php:1
+[12-Feb-2016 22:56:39 UTC] PHP   3. include() /home/ubuntu/workspace/secretdiary/login.php:12
+[12-Feb-2016 22:56:39 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/secretdiary/connection.php:3
+[12-Feb-2016 22:58:02 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'diaryadmin'@'localhost' (using password: YES) in /home/ubuntu/workspace/secretdiary/connection.php on line 3
+[12-Feb-2016 22:58:02 UTC] PHP Stack trace:
+[12-Feb-2016 22:58:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/secretdiary/index.php:0
+[12-Feb-2016 22:58:02 UTC] PHP   2. include() /home/ubuntu/workspace/secretdiary/index.php:1
+[12-Feb-2016 22:58:02 UTC] PHP   3. include() /home/ubuntu/workspace/secretdiary/login.php:12
+[12-Feb-2016 22:58:02 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/secretdiary/connection.php:3
+[12-Feb-2016 22:58:06 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'diaryadmin'@'localhost' (using password: YES) in /home/ubuntu/workspace/secretdiary/connection.php on line 3
+[12-Feb-2016 22:58:06 UTC] PHP Stack trace:
+[12-Feb-2016 22:58:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/secretdiary/index.php:0
+[12-Feb-2016 22:58:06 UTC] PHP   2. include() /home/ubuntu/workspace/secretdiary/index.php:1
+[12-Feb-2016 22:58:06 UTC] PHP   3. include() /home/ubuntu/workspace/secretdiary/login.php:12
+[12-Feb-2016 22:58:06 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/secretdiary/connection.php:3
+[12-Feb-2016 22:58:17 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'diaryadmin'@'localhost' (using password: YES) in /home/ubuntu/workspace/secretdiary/connection.php on line 3
+[12-Feb-2016 22:58:17 UTC] PHP Stack trace:
+[12-Feb-2016 22:58:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/secretdiary/index.php:0
+[12-Feb-2016 22:58:17 UTC] PHP   2. include() /home/ubuntu/workspace/secretdiary/index.php:1
+[12-Feb-2016 22:58:17 UTC] PHP   3. include() /home/ubuntu/workspace/secretdiary/login.php:12
+[12-Feb-2016 22:58:17 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/secretdiary/connection.php:3
