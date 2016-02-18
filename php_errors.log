@@ -34,3 +34,28 @@
 [12-Feb-2016 22:58:17 UTC] PHP   2. include() /home/ubuntu/workspace/secretdiary/index.php:1
 [12-Feb-2016 22:58:17 UTC] PHP   3. include() /home/ubuntu/workspace/secretdiary/login.php:12
 [12-Feb-2016 22:58:17 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/secretdiary/connection.php:3
+[16-Feb-2016 05:19:23 UTC] PHP Warning:  mysql_affected_rows() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/loginpractice/login.php on line 55
+[16-Feb-2016 05:19:23 UTC] PHP Stack trace:
+[16-Feb-2016 05:19:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/loginpractice/index.php:0
+[16-Feb-2016 05:19:23 UTC] PHP   2. include() /home/ubuntu/workspace/loginpractice/index.php:1
+[16-Feb-2016 05:19:23 UTC] PHP   3. mysql_affected_rows() /home/ubuntu/workspace/loginpractice/login.php:55
+[16-Feb-2016 05:50:01 UTC] Hello
+[16-Feb-2016 05:51:53 UTC] PHP Warning:  mysqli_commit() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/loginpractice/login.php on line 51
+[16-Feb-2016 05:51:53 UTC] PHP Stack trace:
+[16-Feb-2016 05:51:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/loginpractice/index.php:0
+[16-Feb-2016 05:51:53 UTC] PHP   2. include() /home/ubuntu/workspace/loginpractice/index.php:1
+[16-Feb-2016 05:51:53 UTC] PHP   3. mysqli_commit() /home/ubuntu/workspace/loginpractice/login.php:51
+[16-Feb-2016 05:54:30 UTC] INSERT INTO `users` (`email`, `password`) VALUES ('vanhooser@cox.net', '0d6b8a8426c165740859b5a8fbcb8f90')
+[16-Feb-2016 05:54:30 UTC] PHP Warning:  mysqli_commit() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/loginpractice/login.php on line 53
+[16-Feb-2016 05:54:30 UTC] PHP Stack trace:
+[16-Feb-2016 05:54:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/loginpractice/index.php:0
+[16-Feb-2016 05:54:30 UTC] PHP   2. include() /home/ubuntu/workspace/loginpractice/index.php:1
+[16-Feb-2016 05:54:30 UTC] PHP   3. mysqli_commit() /home/ubuntu/workspace/loginpractice/login.php:53
+[16-Feb-2016 05:57:21 UTC] INSERT INTO `users` (`email`, `password`) VALUES ('vanhooser@cox.net', '0d6b8a8426c165740859b5a8fbcb8f90')
+[16-Feb-2016 06:02:39 UTC] INSERT INTO `users` (`email`, `password`) VALUES ('ymasterb@yahoo.com', '12bbbf3290e5532f1ad07e00e0f74723');
+[16-Feb-2016 06:03:03 UTC] INSERT INTO `users` (`email`, `password`) VALUES ('btvanhooser@cpp.edu', 'cf0846768a953f7a4ac10ded12713605');
+[17-Feb-2016 00:26:01 UTC] INSERT INTO `users` (`email`, `password`) VALUES ('xxcmk72xx@gmail.com', '33843620a1a5e3085d120fbbdb9462f6');
+[17-Feb-2016 18:19:05 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/loginpractice/homepage.php on line 23
+[17-Feb-2016 19:32:59 UTC] INSERT INTO `profiles` (`id`, `name`, `job`, `relationship`, `description`) VALUES ('2', 'Brian', 'Intern', 'Taken', 'I am an aspiring programming with a lot of hope!');
+[17-Feb-2016 19:35:44 UTC] INSERT INTO `profiles` (`user_id`, `name`, `job`, `relationship_status`, `description`) VALUES ('2', 'Brian', 'Intern', 'Taken', 'I am a programmer at heart!');
+[17-Feb-2016 19:36:41 UTC] INSERT INTO `profiles` (`user_id`, `name`, `job`, `relationship_status`, `description`) VALUES ('1', 'Bob', 'being bob', 'don\'t know just yet', 'What am i');

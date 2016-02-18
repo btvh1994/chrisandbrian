@@ -15,9 +15,14 @@
         <div class="container">
             <div class="row">
                 <div class="well text-center col-md-6 col-md-offset-3">
-                    <a href="/secretdiary">Link to secret diary site</a>
+                    <a href="/secretdiary" class="btn btn-primary">Link to secret diary site</a>
                     </br>
-                    <a href="formtest.php">Link to form test</a> 
+                    <a href="formtest.php" class="btn btn-primary">Link to form test</a> 
+                    </br>
+                    <a href="/loginpractice" class="btn btn-primary">Link to Social Media test</a>
+                    </br></br></br>
+                    <a href="inputpage.php" class="btn btn-success">Link to location input for Trip planning project</a>
+                    <a href="outputfile.php" class="btn btn-warning">Check out the Database table</a>
                 </div>
             </div>
         </div>

@@ -46,6 +46,8 @@
    
     		mysqli_query($link, $query);
     		
+    		mysqli_commit($link);
+    		
     		$success="You've been signed up!";
     		
     		$_SESSION['id']= mysqli_insert_id($link);
