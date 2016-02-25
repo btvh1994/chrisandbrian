@@ -42,15 +42,15 @@
 			
 			else {
 			
-			$query = "INSERT INTO `users` (`email`, `password`) VALUES ('".mysqli_real_escape_string($link, $_POST['email'])."', '".md5(md5($_POST['email']).$_POST['password'])."')";
+			$query = "INSERT INTO `users` (`email`, `password`) VALUES ('".mysqli_real_escape_string($link, $_POST['email'])."', '".md5(md5($_POST['email']).$_POST['password'])."');";
    
     		mysqli_query($link, $query);
+    		
+    		$_SESSION['id']= mysqli_insert_id($link);
     		
     		mysqli_commit($link);
     		
     		$success="You've been signed up!";
-    		
-    		$_SESSION['id']= mysqli_insert_id($link);
     		
     		header("Location:mainpage.php");
 			

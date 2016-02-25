@@ -59,3 +59,170 @@
 [17-Feb-2016 19:32:59 UTC] INSERT INTO `profiles` (`id`, `name`, `job`, `relationship`, `description`) VALUES ('2', 'Brian', 'Intern', 'Taken', 'I am an aspiring programming with a lot of hope!');
 [17-Feb-2016 19:35:44 UTC] INSERT INTO `profiles` (`user_id`, `name`, `job`, `relationship_status`, `description`) VALUES ('2', 'Brian', 'Intern', 'Taken', 'I am a programmer at heart!');
 [17-Feb-2016 19:36:41 UTC] INSERT INTO `profiles` (`user_id`, `name`, `job`, `relationship_status`, `description`) VALUES ('1', 'Bob', 'being bob', 'don\'t know just yet', 'What am i');
+[18-Feb-2016 18:08:50 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ubuntu/workspace/loginpractice/profilelist.php on line 37
+[18-Feb-2016 18:08:50 UTC] PHP Stack trace:
+[18-Feb-2016 18:08:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/loginpractice/profilelist.php:0
+[18-Feb-2016 18:10:24 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ubuntu/workspace/loginpractice/profilelist.php on line 41
+[18-Feb-2016 18:10:24 UTC] PHP Stack trace:
+[18-Feb-2016 18:10:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/loginpractice/profilelist.php:0
+[18-Feb-2016 18:10:47 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ubuntu/workspace/loginpractice/profilelist.php on line 41
+[18-Feb-2016 18:10:47 UTC] PHP Stack trace:
+[18-Feb-2016 18:10:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/loginpractice/profilelist.php:0
+[18-Feb-2016 18:13:40 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ubuntu/workspace/loginpractice/profilelist.php on line 42
+[18-Feb-2016 18:13:40 UTC] PHP Stack trace:
+[18-Feb-2016 18:13:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/loginpractice/profilelist.php:0
+[18-Feb-2016 18:13:44 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ubuntu/workspace/loginpractice/profilelist.php on line 42
+[18-Feb-2016 18:13:44 UTC] PHP Stack trace:
+[18-Feb-2016 18:13:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/loginpractice/profilelist.php:0
+[18-Feb-2016 18:50:52 UTC] INSERT INTO `users` (`email`, `password`) VALUES ('example@example.com', 'd04be66fe44b65ef0fd6b4d7472d3a55');
+[18-Feb-2016 18:51:44 UTC] INSERT INTO `profiles` (`user_id`, `name`, `job`, `relationship_status`, `description`) VALUES ('0', 'Example', 'Being an example', 'kinda alone', 'HA');
+[18-Feb-2016 19:01:15 UTC] INSERT INTO `users` (`email`, `password`) VALUES ('example2@example.com', '9ab33b4f6d69bd5722ed7658d7aab9f5');
+[18-Feb-2016 19:02:03 UTC] INSERT INTO `users` (`email`, `password`) VALUES ('example3@example.com', 'b958b5052cf732fc0a4e2a0f030761c4');
+[18-Feb-2016 19:08:34 UTC] INSERT INTO `users` (`email`, `password`) VALUES ('example4@example.com', '95b03c34e4e141ba28479b5fcf625606');
+[18-Feb-2016 19:09:00 UTC] INSERT INTO `profiles` (`user_id`, `name`, `job`, `relationship_status`, `description`) VALUES ('', 'test', 'test', 'test', 'test');
+[18-Feb-2016 19:10:39 UTC] INSERT INTO `users` (`email`, `password`) VALUES ('example5@example.com', '82c2b9cd6d1f5415517d4ab5a0805c20');
+[18-Feb-2016 19:12:57 UTC] INSERT INTO `users` (`email`, `password`) VALUES ('test@test.com', 'ae618eab580640ff1182ba8a1d3dee33');
+[18-Feb-2016 19:16:08 UTC] INSERT INTO `users` (`email`, `password`) VALUES ('test2@test.com', '4e2bb72085cb683674030b9006248a99');
+[18-Feb-2016 19:18:21 UTC] INSERT INTO `users` (`email`, `password`) VALUES ('test3@test.com', 'aed50ae8a5b47dd4bc21b33cb1ec9f4e');
+[18-Feb-2016 19:21:34 UTC] INSERT INTO `users` (`email`, `password`) VALUES ('test4@test.com', 'ad2ab68c5ea623005d986fec68f4faeb');
+[18-Feb-2016 19:22:50 UTC] INSERT INTO `users` (`email`, `password`) VALUES ('test@test.com5', 'a106afcbd0f98c801ba39cb6e6d2e74b');
+[18-Feb-2016 19:22:50 UTC] PHP Fatal error:  Call to undefined function log_error() in /home/ubuntu/workspace/loginpractice/login.php on line 64
+[18-Feb-2016 19:22:50 UTC] PHP Stack trace:
+[18-Feb-2016 19:22:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/loginpractice/index.php:0
+[18-Feb-2016 19:22:50 UTC] PHP   2. include() /home/ubuntu/workspace/loginpractice/index.php:1
+[18-Feb-2016 19:24:00 UTC] INSERT INTO `users` (`email`, `password`) VALUES ('test6@test.com', 'd84e8b3bdbe7675c9e7945d73e91d724');
+[18-Feb-2016 19:24:00 UTC] 1
+[18-Feb-2016 19:24:00 UTC] PHP Fatal error:  Call to undefined function log_error() in /home/ubuntu/workspace/loginpractice/login.php on line 69
+[18-Feb-2016 19:24:00 UTC] PHP Stack trace:
+[18-Feb-2016 19:24:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/loginpractice/index.php:0
+[18-Feb-2016 19:24:00 UTC] PHP   2. include() /home/ubuntu/workspace/loginpractice/index.php:1
+[18-Feb-2016 19:24:49 UTC] INSERT INTO `users` (`email`, `password`) VALUES ('test7@test.com', '4367e6fb9dbf5cec665d0af5022deb11');
+[18-Feb-2016 19:24:49 UTC] 1
+[18-Feb-2016 19:24:49 UTC] 1
+[18-Feb-2016 19:26:30 UTC] INSERT INTO `users` (`email`, `password`) VALUES ('test8@test.com', '106529deaddc7cf688c50282b595b9a1');
+[18-Feb-2016 19:26:30 UTC] 
+[18-Feb-2016 19:26:30 UTC] 
+[18-Feb-2016 19:27:45 UTC] INSERT INTO `users` (`email`, `password`) VALUES ('test9@test.com', '0dcc9c6476817453db73bc0c84fe9067');
+[18-Feb-2016 19:27:45 UTC] 
+[18-Feb-2016 19:27:45 UTC] 
+[19-Feb-2016 18:41:54 UTC] INSERT INTO `users` (`email`, `password`) VALUES ('testing@test.com', '0962ae8c49936dcc0692e75e0d6161ff');
+[19-Feb-2016 18:41:54 UTC] 0
+[19-Feb-2016 18:41:54 UTC] 
+[19-Feb-2016 18:41:54 UTC] 0
+[19-Feb-2016 18:41:54 UTC] 
+[19-Feb-2016 18:49:42 UTC] INSERT INTO `users` (email, password) VALUES ('tester@test.com', '2c3600c392f5a6329a3046bff93fd1cf');
+[19-Feb-2016 18:49:42 UTC] 0
+[19-Feb-2016 18:49:42 UTC] 0
+[19-Feb-2016 18:49:42 UTC] 
+[19-Feb-2016 18:58:37 UTC] INSERT INTO `users` (email, password) VALUES ('idtest@test.com', '3274489aaa30659983116b59a98f07bf');
+[19-Feb-2016 18:58:37 UTC] 0
+[19-Feb-2016 18:58:37 UTC] 0
+[19-Feb-2016 18:58:37 UTC] 
+[19-Feb-2016 19:16:22 UTC] INSERT INTO `users` (email, password) VALUES ('exampletest@example.com', 'a8b79c43925d763876cccaa74dab1b4f');
+[19-Feb-2016 19:16:22 UTC] 0
+[19-Feb-2016 19:16:22 UTC] 0
+[19-Feb-2016 19:16:22 UTC] 
+[19-Feb-2016 19:20:44 UTC] 22
+[19-Feb-2016 19:25:43 UTC] INSERT INTO `profiles` (`user_id`, `name`, `job`, `relationship_status`, `description`) VALUES ('22', 'Aquaman', 'being a bitch', 'whatta bitch', 'sup');
+[22-Feb-2016 17:02:16 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/loginpractice/profile.php on line 7
+[22-Feb-2016 17:02:16 UTC] PHP Stack trace:
+[22-Feb-2016 17:02:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/loginpractice/profilesetup.php:0
+[22-Feb-2016 17:02:16 UTC] PHP   2. include() /home/ubuntu/workspace/loginpractice/profilesetup.php:1
+[22-Feb-2016 17:02:16 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/loginpractice/profile.php:7
+[22-Feb-2016 17:04:13 UTC] PHP Warning:  DOMDocument::loadHTMLFile(): Unexpected end tag : h1 in profilesetup.php, line: 22 in /home/ubuntu/workspace/loginpractice/profile.php on line 33
+[22-Feb-2016 17:04:13 UTC] PHP Stack trace:
+[22-Feb-2016 17:04:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/loginpractice/profilesetup.php:0
+[22-Feb-2016 17:04:13 UTC] PHP   2. include() /home/ubuntu/workspace/loginpractice/profilesetup.php:1
+[22-Feb-2016 17:04:13 UTC] PHP   3. DOMDocument->loadHTMLFile() /home/ubuntu/workspace/loginpractice/profile.php:33
+[22-Feb-2016 17:04:13 UTC] PHP Warning:  DOMDocument::loadHTMLFile(): Unexpected end tag : br in profilesetup.php, line: 23 in /home/ubuntu/workspace/loginpractice/profile.php on line 33
+[22-Feb-2016 17:04:13 UTC] PHP Stack trace:
+[22-Feb-2016 17:04:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/loginpractice/profilesetup.php:0
+[22-Feb-2016 17:04:13 UTC] PHP   2. include() /home/ubuntu/workspace/loginpractice/profilesetup.php:1
+[22-Feb-2016 17:04:13 UTC] PHP   3. DOMDocument->loadHTMLFile() /home/ubuntu/workspace/loginpractice/profile.php:33
+[22-Feb-2016 17:04:13 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/loginpractice/profile.php on line 34
+[22-Feb-2016 17:04:13 UTC] PHP Stack trace:
+[22-Feb-2016 17:04:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/loginpractice/profilesetup.php:0
+[22-Feb-2016 17:04:13 UTC] PHP   2. include() /home/ubuntu/workspace/loginpractice/profilesetup.php:1
+[22-Feb-2016 17:32:57 UTC] SELECT * FROM `profiles` WHERE user_id ='2'
+[22-Feb-2016 17:32:57 UTC] , , , 
+[22-Feb-2016 17:35:38 UTC] SELECT * FROM `profiles` WHERE user_id ='2'
+[22-Feb-2016 17:35:38 UTC] , , , , 1
+[22-Feb-2016 17:37:50 UTC] SELECT * FROM `profiles` WHERE user_id ='2'
+[22-Feb-2016 17:37:50 UTC] Brian, Intern, , I am a programmer at heart!, Array
+[22-Feb-2016 17:48:09 UTC] SELECT * FROM `profiles` WHERE user_id ='2'
+[22-Feb-2016 17:48:09 UTC] Brian, Intern, Taken, I am a programmer at heart!, Array
+[22-Feb-2016 17:48:29 UTC] SELECT * FROM `profiles` WHERE user_id ='2'
+[22-Feb-2016 17:48:29 UTC] Brian, Intern, Taken, I am a programmer at heart!, Array
+[22-Feb-2016 17:48:29 UTC] UPDATE `profiles` SET name = 'Brian', job = 'Intern',relationship_status = 'Taken',description = 'I am a programmer at heart! I successfully created the update function :D' WHERE user_id = 2;
+[22-Feb-2016 17:53:12 UTC] SELECT * FROM `profiles` WHERE user_id ='5'
+[22-Feb-2016 17:56:13 UTC] SELECT * FROM `profiles` WHERE user_id ='5'
+[22-Feb-2016 17:56:13 UTC] INSERT INTO `profiles` (`user_id`, `name`, `job`, `relationship_status`, `description`) VALUES ('5', 'Phillip', 'Courtesy Clerk', 'Single', 'Just your average hard working Joe... err Phillip');
+[22-Feb-2016 18:12:53 UTC] SELECT * FROM `profiles` WHERE user_id ='4'
+[22-Feb-2016 18:12:53 UTC] Example, Being an example, kinda alone, HA, Array
+[24-Feb-2016 18:31:50 UTC] , , , , Array
+[24-Feb-2016 18:35:10 UTC] , , , , Array
+[24-Feb-2016 18:35:34 UTC] , , , , Array
+[24-Feb-2016 18:36:00 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[24-Feb-2016 18:36:00 UTC] , , , , Array
+[24-Feb-2016 18:40:20 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[24-Feb-2016 18:40:20 UTC] Bob, being bob, don't know just yet, What am i, Array
+[24-Feb-2016 19:02:15 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[24-Feb-2016 19:02:15 UTC] Bob, being bob, don't know just yet, What am i, Array
+[24-Feb-2016 19:02:46 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[24-Feb-2016 19:02:46 UTC] Bob, being bob, don't know just yet, What am i, Array
+[24-Feb-2016 19:04:27 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[24-Feb-2016 19:04:27 UTC] Bob, being bob, don't know just yet, What am i, Array
+[24-Feb-2016 19:04:54 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[24-Feb-2016 19:04:54 UTC] Bob, being bob, don't know just yet, What am i, Array
+[24-Feb-2016 19:05:05 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[24-Feb-2016 19:05:05 UTC] Bob, being bob, don't know just yet, What am i, Array
+[24-Feb-2016 19:12:18 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[24-Feb-2016 19:12:18 UTC] Bob, being bob, don't know just yet, What am i, Array
+[24-Feb-2016 19:13:34 UTC] SELECT * FROM profiles WHERE user_id = '2';
+[24-Feb-2016 19:13:34 UTC] Brian, Intern, Taken, I am a programmer at heart! I successfully created the update function :D, Array
+[24-Feb-2016 19:16:52 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[24-Feb-2016 19:16:52 UTC] Bob, being bob, don't know just yet, What am i, Array
+[24-Feb-2016 19:16:56 UTC] SELECT * FROM profiles WHERE user_id = '2';
+[24-Feb-2016 19:16:56 UTC] Brian, Intern, Taken, I am a programmer at heart! I successfully created the update function :D, Array
+[24-Feb-2016 19:22:34 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[24-Feb-2016 19:22:34 UTC] Bob, being bob, don't know just yet, What am i, Array
+[24-Feb-2016 19:23:42 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[24-Feb-2016 19:23:42 UTC] Bob, being bob, don't know just yet, What am i, Array
+[24-Feb-2016 19:23:55 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[24-Feb-2016 19:23:55 UTC] Bob, being bob, don't know just yet, What am i, Array
+[24-Feb-2016 19:24:34 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[24-Feb-2016 19:24:34 UTC] Bob, being bob, don't know just yet, What am i, Array
+[24-Feb-2016 19:24:45 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[24-Feb-2016 19:24:45 UTC] Bob, being bob, don't know just yet, What am i, Array
+[24-Feb-2016 19:25:58 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[24-Feb-2016 19:25:58 UTC] Bob, being bob, don't know just yet, What am i, Array
+[24-Feb-2016 19:26:53 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[24-Feb-2016 19:26:53 UTC] Bob, being bob, don't know just yet, What am i, Array
+[24-Feb-2016 19:27:05 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[24-Feb-2016 19:27:05 UTC] Bob, being bob, don't know just yet, What am i, Array
+[24-Feb-2016 19:27:15 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[24-Feb-2016 19:27:15 UTC] Bob, being bob, don't know just yet, What am i, Array
+[24-Feb-2016 19:27:45 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[24-Feb-2016 19:27:45 UTC] Bob, being bob, don't know just yet, What am i, Array
+[24-Feb-2016 19:31:30 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[24-Feb-2016 19:31:30 UTC] Bob, being bob, don't know just yet, What am i, Array
+[24-Feb-2016 19:32:03 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[24-Feb-2016 19:32:03 UTC] Bob, being bob, don't know just yet, What am i, Array
+[24-Feb-2016 19:32:45 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[24-Feb-2016 19:32:45 UTC] Bob, being bob, don't know just yet, What am i, Array
+[24-Feb-2016 19:36:44 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[24-Feb-2016 19:36:44 UTC] Bob, being bob, don't know just yet, What am i, Array
+[24-Feb-2016 19:36:46 UTC] SELECT * FROM profiles WHERE user_id = '5';
+[24-Feb-2016 19:36:46 UTC] Phillip, Courtesy Clerk, Single, Just your average hard working Joe... err Phillip, Array
+[24-Feb-2016 19:38:13 UTC] SELECT * FROM profiles WHERE user_id = '5';
+[24-Feb-2016 19:38:13 UTC] Phillip, Courtesy Clerk, Single, Just your average hard working Joe... err Phillip, Array
+[24-Feb-2016 19:38:21 UTC] SELECT * FROM profiles WHERE user_id = '2';
+[24-Feb-2016 19:38:21 UTC] Brian, Intern, Taken, I am a programmer at heart! I successfully created the update function :D, Array
+[24-Feb-2016 19:38:30 UTC] SELECT * FROM profiles WHERE user_id = '22';
+[24-Feb-2016 19:38:30 UTC] Aquaman, being a bitch, whatta bitch, sup, Array
+[24-Feb-2016 19:38:35 UTC] SELECT * FROM profiles WHERE user_id = '5';
+[24-Feb-2016 19:38:35 UTC] Phillip, Courtesy Clerk, Single, Just your average hard working Joe... err Phillip, Array
+[24-Feb-2016 19:39:07 UTC] SELECT * FROM profiles WHERE user_id = '2';
+[24-Feb-2016 19:39:07 UTC] Brian, Intern, Taken, I am a programmer at heart! I successfully created the update function :D, Array
+[25-Feb-2016 16:59:16 UTC] SELECT * FROM profiles WHERE user_id = '5';
+[25-Feb-2016 16:59:16 UTC] Phillip, Courtesy Clerk, Single, Just your average hard working Joe... err Phillip, Array

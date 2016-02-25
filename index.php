@@ -14,13 +14,15 @@
         </br>
         <div class="container">
             <div class="row">
-                <div class="well text-center col-md-6 col-md-offset-3">
-                    <a href="/secretdiary" class="btn btn-primary">Link to secret diary site</a>
+                <div class="well text-center col-md-8 col-md-offset-2">
+                    <ul class="list-unstyled">
+                        <li><a href="/secretdiary" class="btn btn-default">Link to secret diary site</a></li>
+                        </br>
+                        <li><a href="formtest.php" class="btn btn-default">Link to form test</a></li> 
+                        </br>
+                        </li><a href="/loginpractice" class="btn btn-default">Link to Social Media test</a></li>
+                    </ul>
                     </br>
-                    <a href="formtest.php" class="btn btn-primary">Link to form test</a> 
-                    </br>
-                    <a href="/loginpractice" class="btn btn-primary">Link to Social Media test</a>
-                    </br></br></br>
                     <a href="inputpage.php" class="btn btn-success">Link to location input for Trip planning project</a>
                     <a href="outputfile.php" class="btn btn-warning">Check out the Database table</a>
                 </div>

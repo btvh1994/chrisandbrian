@@ -1,4 +1,37 @@
-<?php session_start(); include("connection.php"); include("profile.php");?>
+<?php session_start(); include("connection.php"); 
+
+    $query= "SELECT * FROM `profiles` WHERE user_id ='".$_SESSION['id']."'";
+    
+    error_log($query);
+			
+	$result = mysqli_query($link, $query);	
+	
+	$results = mysqli_num_rows($result);
+	
+	if ($results) {
+	    $row = mysqli_fetch_array($result);
+	    if ($row['name'])
+	        $name = $row['name'];
+	    else 
+	        $name = "";
+	    if ($row['job'])
+	        $job = $row['job'];
+	    else 
+	        $job = "";
+	    if ($row['relationship_status'])
+	        $relationship = $row['relationship_status'];
+	    else 
+	        $relationship = "";
+	    if ($row['description'])
+	        $description = $row['description'];
+	    else 
+	        $description = "";
+	    error_log($name.", ".$job.", ".$relationship.", ".$description.", ".$row);
+	}
+	
+	include("profile.php");
+
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -24,19 +57,19 @@
                     <form method="post" class="marginTop">
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input type="text" name="name" class="form-control" placeholder="name"/>
+                            <input type="text" name="name" class="form-control" placeholder="name" value="<?php if ($results) echo $name; ?>"/>
                         </div>
                         <div class="form-group">
                             <label for="job">Current Job</label>
-                            <input type='text' name="job" class="form-control" placeholder="current job"/>
+                            <input type='text' name="job" class="form-control" placeholder="current job" value="<?php if ($results) echo $job; ?>"/>
                         </div>
                         <div class="form-group">
                             <label for="relationship">Relationship</label>
-                            <input type="text" name="relationship" class="form-control" placeholder="current relationship status"/>
+                            <input type="text" name="relationship" class="form-control" placeholder="current relationship status" value="<?php if ($results) echo $relationship; ?>"/>
                         </div>
                         <div class="form-group">
-                            <label for="relationship">Description</label>
-                            <textarea class="form-control" placeholder="tell us about yourself...." rows="5" name="description"></textarea>
+                            <label for="description">Description</label>
+                            <textarea class="form-control" placeholder="tell us about yourself...." rows="5" name="description"><?php if ($results) echo $description; ?></textarea>
                         </div>
                         <input type="submit" name="submit" value="Finish" class="btn btn-success btn-lg marginTop"/>
                     </form>
@@ -44,7 +77,7 @@
             </div>
         </div>
         <div class="container text-center">
-            <a href="../index.php" class="btn btn-success">Back to Home Page</a>
+            <a href="homepage.php" class="btn btn-success">Back to Home Page</a>
         </div>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

@@ -1,0 +1,1 @@
+<?php session_start(); echo "Sorry, it looks like you tried to reach a page that doesn't actually exist, or that you are not permitted to see."; ?>
