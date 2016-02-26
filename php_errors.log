@@ -226,3 +226,75 @@
 [24-Feb-2016 19:39:07 UTC] Brian, Intern, Taken, I am a programmer at heart! I successfully created the update function :D, Array
 [25-Feb-2016 16:59:16 UTC] SELECT * FROM profiles WHERE user_id = '5';
 [25-Feb-2016 16:59:16 UTC] Phillip, Courtesy Clerk, Single, Just your average hard working Joe... err Phillip, Array
+[25-Feb-2016 23:46:03 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[25-Feb-2016 23:46:03 UTC] Bob, being bob, don't know just yet, What am i, Array
+[25-Feb-2016 23:46:10 UTC] SELECT * FROM `profiles` WHERE user_id ='1'
+[25-Feb-2016 23:46:10 UTC] Bob, being bob, don't know just yet, What am i, Array
+[25-Feb-2016 23:46:24 UTC] SELECT * FROM `profiles` WHERE user_id ='1'
+[25-Feb-2016 23:46:24 UTC] Bob, being bob, don't know just yet, What am i, Array
+[25-Feb-2016 23:46:24 UTC] PHP Fatal error:  Call to undefined function STR_TO_DATE() in /home/ubuntu/workspace/loginpractice/profile.php on line 38
+[25-Feb-2016 23:46:24 UTC] PHP Stack trace:
+[25-Feb-2016 23:46:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/loginpractice/profilesetup.php:0
+[25-Feb-2016 23:46:24 UTC] PHP   2. include() /home/ubuntu/workspace/loginpractice/profilesetup.php:36
+[25-Feb-2016 23:48:01 UTC] SELECT * FROM `profiles` WHERE user_id ='1'
+[25-Feb-2016 23:48:01 UTC] Bob, being bob, don't know just yet, What am i, Array
+[25-Feb-2016 23:48:11 UTC] SELECT * FROM `profiles` WHERE user_id ='1'
+[25-Feb-2016 23:48:11 UTC] Bob, being bob, don't know just yet, What am i, Array
+[25-Feb-2016 23:48:19 UTC] SELECT * FROM `profiles` WHERE user_id ='1'
+[25-Feb-2016 23:48:19 UTC] Bob, being bob, don't know just yet, What am i, Array
+[25-Feb-2016 23:48:19 UTC] PHP Fatal error:  Call to undefined function STR_TO_DATE() in /home/ubuntu/workspace/loginpractice/profile.php on line 38
+[25-Feb-2016 23:48:19 UTC] PHP Stack trace:
+[25-Feb-2016 23:48:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/loginpractice/profilesetup.php:0
+[25-Feb-2016 23:48:19 UTC] PHP   2. include() /home/ubuntu/workspace/loginpractice/profilesetup.php:36
+[25-Feb-2016 23:52:14 UTC] SELECT * FROM `profiles` WHERE user_id ='1'
+[25-Feb-2016 23:52:14 UTC] Bob, being bob, don't know just yet, What am i, Array
+[25-Feb-2016 23:52:19 UTC] SELECT * FROM `profiles` WHERE user_id ='1'
+[25-Feb-2016 23:52:19 UTC] Bob, being bob, don't know just yet, What am i, Array
+[25-Feb-2016 23:52:29 UTC] SELECT * FROM `profiles` WHERE user_id ='1'
+[25-Feb-2016 23:52:29 UTC] Bob, being bob, don't know just yet, What am i, Array
+[25-Feb-2016 23:52:29 UTC] UPDATE `profiles` SET name = 'Bob', job = 'being bob',relationship_status = 'don\'t know just yet',description = 'What am iSTR_TO_DATE(', '%Y-%m-%d'))' WHERE user_id = 1;
+[25-Feb-2016 23:55:38 UTC] SELECT * FROM `profiles` WHERE user_id ='1'
+[25-Feb-2016 23:55:38 UTC] Bob, being bob, don't know just yet, What am i, Array
+[25-Feb-2016 23:55:46 UTC] SELECT * FROM `profiles` WHERE user_id ='1'
+[25-Feb-2016 23:55:46 UTC] Bob, being bob, don't know just yet, What am i, Array
+[25-Feb-2016 23:55:46 UTC] UPDATE `profiles` SET name = 'Bob', job = 'being bob',relationship_status = 'don\'t know just yet',description = 'What am i', STR_TO_DATE(', '%Y-%m-%d'))' WHERE user_id = 1;
+[25-Feb-2016 23:57:10 UTC] SELECT * FROM `profiles` WHERE user_id ='1'
+[25-Feb-2016 23:57:10 UTC] Bob, being bob, don't know just yet, What am i, Array
+[25-Feb-2016 23:57:17 UTC] SELECT * FROM `profiles` WHERE user_id ='1'
+[25-Feb-2016 23:57:17 UTC] Bob, being bob, don't know just yet, What am i, Array
+[25-Feb-2016 23:57:17 UTC] UPDATE `profiles` SET name = 'Bob', job = 'being bob',relationship_status = 'don\'t know just yet',description = 'What am i', date = STR_TO_DATE('1990-01-01, '%Y-%m-%d'))' WHERE user_id = 1;
+[25-Feb-2016 23:57:56 UTC] SELECT * FROM `profiles` WHERE user_id ='1'
+[25-Feb-2016 23:57:56 UTC] Bob, being bob, don't know just yet, What am i, Array
+[25-Feb-2016 23:58:06 UTC] SELECT * FROM `profiles` WHERE user_id ='1'
+[25-Feb-2016 23:58:06 UTC] Bob, being bob, don't know just yet, What am i, Array
+[25-Feb-2016 23:58:06 UTC] UPDATE `profiles` SET name = 'Bob', job = 'being bob',relationship_status = 'don\'t know just yet',description = 'What am i', birthdate = STR_TO_DATE('1990-02-02, '%Y-%m-%d'))' WHERE user_id = 1;
+[26-Feb-2016 00:00:33 UTC] SELECT * FROM `profiles` WHERE user_id ='1'
+[26-Feb-2016 00:00:33 UTC] Bob, being bob, don't know just yet, What am i, Array
+[26-Feb-2016 00:00:40 UTC] SELECT * FROM `profiles` WHERE user_id ='1'
+[26-Feb-2016 00:00:40 UTC] Bob, being bob, don't know just yet, What am i, Array
+[26-Feb-2016 00:00:40 UTC] UPDATE `profiles` SET name = 'Bob', job = 'being bob',relationship_status = 'don\'t know just yet',description = 'What am i', birthdate = 'STR_TO_DATE('1990-01-01', '%Y-%m-%d'))' WHERE user_id = 1;
+[26-Feb-2016 00:01:30 UTC] SELECT * FROM `profiles` WHERE user_id ='1'
+[26-Feb-2016 00:01:30 UTC] Bob, being bob, don't know just yet, What am i, Array
+[26-Feb-2016 00:01:40 UTC] SELECT * FROM `profiles` WHERE user_id ='1'
+[26-Feb-2016 00:01:40 UTC] Bob, being bob, don't know just yet, What am i, Array
+[26-Feb-2016 00:01:40 UTC] UPDATE `profiles` SET name = 'Bob', job = 'being bob',relationship_status = 'don\'t know just yet',description = 'What am i', birthdate = STR_TO_DATE('1990-01-01', '%Y-%m-%d')) WHERE user_id = 1;
+[26-Feb-2016 00:03:58 UTC] SELECT * FROM `profiles` WHERE user_id ='1'
+[26-Feb-2016 00:03:58 UTC] Bob, being bob, don't know just yet, What am i, Array
+[26-Feb-2016 00:04:04 UTC] SELECT * FROM `profiles` WHERE user_id ='1'
+[26-Feb-2016 00:04:04 UTC] Bob, being bob, don't know just yet, What am i, Array
+[26-Feb-2016 00:04:04 UTC] UPDATE `profiles` SET name = 'Bob', job = 'being bob',relationship_status = 'don\'t know just yet',description = 'What am i', birthdate = STR_TO_DATE('1990-01-01', '%Y-%m-%d') WHERE user_id = 1;
+[26-Feb-2016 00:14:35 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[26-Feb-2016 00:14:35 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/ubuntu/workspace/loginpractice/profileview.php on line 34
+[26-Feb-2016 00:14:35 UTC] PHP Stack trace:
+[26-Feb-2016 00:14:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/loginpractice/profileview.php:0
+[26-Feb-2016 00:16:09 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[26-Feb-2016 00:16:09 UTC] Bob, being bob, don't know just yet, What am i, Array
+[26-Feb-2016 00:16:33 UTC] SELECT * FROM `profiles` WHERE user_id ='2'
+[26-Feb-2016 00:16:33 UTC] Brian, Intern, Taken, I am a programmer at heart! I successfully created the update function :D, Array
+[26-Feb-2016 00:16:46 UTC] SELECT * FROM `profiles` WHERE user_id ='2'
+[26-Feb-2016 00:16:46 UTC] Brian, Intern, Taken, I am a programmer at heart! I successfully created the update function :D, Array
+[26-Feb-2016 00:16:46 UTC] UPDATE `profiles` SET name = 'Brian', job = 'Intern',relationship_status = 'Taken',description = 'I am a programmer at heart! I successfully created the update function :D', birthdate = STR_TO_DATE('1994-02-24', '%Y-%m-%d') WHERE user_id = 2;
+[26-Feb-2016 00:16:49 UTC] SELECT * FROM profiles WHERE user_id = '2';
+[26-Feb-2016 00:16:49 UTC] Brian, Intern, Taken, I am a programmer at heart! I successfully created the update function :D, Array
+[26-Feb-2016 00:16:49 UTC] SELECT * FROM profiles WHERE user_id = '2';
+[26-Feb-2016 00:16:49 UTC] Brian, Intern, Taken, I am a programmer at heart! I successfully created the update function :D, Array

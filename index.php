@@ -20,6 +20,8 @@
                         </br>
                         <li><a href="formtest.php" class="btn btn-default">Link to form test</a></li> 
                         </br>
+                        <li><a href="dateentrytest.php" class="btn btn-default">Link to date test</a></li> 
+                        </br>
                         </li><a href="/loginpractice" class="btn btn-default">Link to Social Media test</a></li>
                     </ul>
                     </br>

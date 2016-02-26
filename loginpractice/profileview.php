@@ -29,6 +29,11 @@
 	        $description = $row['description'];
 	    else 
 	        $description = "";
+	    if ($row['birthdate']){
+	        $date = DateTime::createFromFormat('Y-m-d', $row['birthdate']);
+	        $bday = $date->format('F jS, Y');
+	    } else 
+	        $bday = "";
 	    error_log($name.", ".$job.", ".$relationship.", ".$description.", ".$row);
     }
 ?>
@@ -70,6 +75,7 @@
                 <div class="col-md-6 marginTop2">
                     <h1><?php echo $name;?></h1>
                     <p>Job: <?php echo $job;?></p>
+                    <p>Birthday: <?php echo $bday; ?></p>
                     <p>Relationship status: <?php echo $relationship; ?></p>
                     <div class="well" style="background-color: #827bd2; color: white;">
                         <p><?php echo $description;?></p>

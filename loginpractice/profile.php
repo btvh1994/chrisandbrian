@@ -12,12 +12,13 @@
 		
 		if (!($results)){
 		
-			$query = "INSERT INTO `profiles` (`user_id`, `name`, `job`, `relationship_status`, `description`) VALUES ('"
+			$query = "INSERT INTO `profiles` (`user_id`, `name`, `job`, `relationship_status`, `description`, `birthdate`) VALUES ('"
 			.$_SESSION['id']
 			."', '".mysqli_real_escape_string($link, $_POST['name'])
 			."', '".mysqli_real_escape_string($link, $_POST['job'])
 			."', '".mysqli_real_escape_string($link, $_POST['relationship'])
-			."', '".mysqli_real_escape_string($link, $_POST['description'])."');";
+			."', '".mysqli_real_escape_string($link, $_POST['description'])
+			."', STR_TO_DATE('".$_POST['bday']."', '%Y-%m-%d'));";
 			
 			error_log($query);
 	
@@ -33,7 +34,8 @@
 			.mysqli_real_escape_string($link, $_POST['name'])."', job = '"
 			.mysqli_real_escape_string($link, $_POST['job'])."',relationship_status = '"
 			.mysqli_real_escape_string($link, $_POST['relationship'])."',description = '"
-			.mysqli_real_escape_string($link, $_POST['description'])."' WHERE user_id = "
+			.mysqli_real_escape_string($link, $_POST['description'])
+			."', birthdate = STR_TO_DATE('".$_POST['bday']."', '%Y-%m-%d') WHERE user_id = "
 			.$_SESSION['id'].";";
 			
 			error_log($query);

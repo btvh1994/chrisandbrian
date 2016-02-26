@@ -26,6 +26,10 @@
 	        $description = $row['description'];
 	    else 
 	        $description = "";
+	    if ($row['birthdate'])
+	        $bday = $row['birthdate'];
+	    else 
+	        $bday = "";
 	    error_log($name.", ".$job.", ".$relationship.", ".$description.", ".$row);
 	}
 	
@@ -62,6 +66,10 @@
                         <div class="form-group">
                             <label for="job">Current Job</label>
                             <input type='text' name="job" class="form-control" placeholder="current job" value="<?php if ($results) echo $job; ?>"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="bday">Birthdate</label>
+                            <input type='date' name="bday" class="form-control" placeholder="birthdate" value="<?php if ($results) echo $bday; ?>"/>
                         </div>
                         <div class="form-group">
                             <label for="relationship">Relationship</label>
