@@ -298,3 +298,41 @@
 [26-Feb-2016 00:16:49 UTC] Brian, Intern, Taken, I am a programmer at heart! I successfully created the update function :D, Array
 [26-Feb-2016 00:16:49 UTC] SELECT * FROM profiles WHERE user_id = '2';
 [26-Feb-2016 00:16:49 UTC] Brian, Intern, Taken, I am a programmer at heart! I successfully created the update function :D, Array
+[01-Mar-2016 01:50:56 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[01-Mar-2016 01:50:56 UTC] Bob, being bob, don't know just yet, What am i, Array
+[01-Mar-2016 01:59:43 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[01-Mar-2016 01:59:43 UTC] Bob, being bob, don't know just yet, What am i, Array
+[01-Mar-2016 02:01:14 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[01-Mar-2016 02:01:14 UTC] Bob, being bob, don't know just yet, What am i, Array
+[01-Mar-2016 02:01:33 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[01-Mar-2016 02:01:33 UTC] Bob, being bob, don't know just yet, What am i, Array
+[01-Mar-2016 02:01:35 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[01-Mar-2016 02:01:35 UTC] Bob, being bob, don't know just yet, What am i, Array
+[01-Mar-2016 02:03:08 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[01-Mar-2016 02:03:08 UTC] Bob, being bob, don't know just yet, What am i, Array
+[01-Mar-2016 02:03:10 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[01-Mar-2016 02:03:10 UTC] Bob, being bob, don't know just yet, What am i, Array
+[01-Mar-2016 02:03:46 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[01-Mar-2016 02:03:46 UTC] Bob, being bob, don't know just yet, What am i, Array
+[01-Mar-2016 02:04:20 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[01-Mar-2016 02:04:20 UTC] Bob, being bob, don't know just yet, What am i, Array
+[01-Mar-2016 02:04:26 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[01-Mar-2016 02:04:26 UTC] Bob, being bob, don't know just yet, What am i, Array
+[01-Mar-2016 02:04:28 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[01-Mar-2016 02:04:28 UTC] Bob, being bob, don't know just yet, What am i, Array
+[01-Mar-2016 02:04:29 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[01-Mar-2016 02:04:29 UTC] Bob, being bob, don't know just yet, What am i, Array
+[01-Mar-2016 02:05:37 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[01-Mar-2016 02:05:37 UTC] Bob, being bob, don't know just yet, What am i, Array
+[01-Mar-2016 02:06:58 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[01-Mar-2016 02:06:58 UTC] Bob, being bob, don't know just yet, What am i, Array
+[03-Mar-2016 01:58:55 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[03-Mar-2016 01:58:55 UTC] Bob, being bob, don't know just yet, What am i, Array
+[03-Mar-2016 01:59:00 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[03-Mar-2016 01:59:00 UTC] Bob, being bob, don't know just yet, What am i, Array
+[03-Mar-2016 02:02:13 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[03-Mar-2016 02:02:13 UTC] Bob, being bob, don't know just yet, What am i, Array
+[03-Mar-2016 02:09:15 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[03-Mar-2016 02:09:15 UTC] Bob, being bob, don't know just yet, What am i, Array
+[03-Mar-2016 02:10:59 UTC] SELECT * FROM profiles WHERE user_id = '1';
+[03-Mar-2016 02:10:59 UTC] Bob, being bob, don't know just yet, What am i, Array
